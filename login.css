@@ -1,0 +1,54 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  /* Estilos do container */
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #f2f2f2;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos dos campos de entrada */
+  input[type=email], input[type=password] {
+    width: 100%;
+    padding: 1px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid  #1e1f34;
+    border-radius: 15px 15px;
+    box-sizing: border-box;
+    background-color: #6a6579;
+  }
+  
+  /* Estilos do botão de envio */
+  input[type=submit] {
+    background-color: #1e1f34;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  input[type=submit]:hover {
+    background-color:;
+  }
+  
+  /* Estilos do link "Esqueceu a Senha?" */
+  a {
+    color: #1e1f34;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #1e1f34;
+    text-decoration: underline;
+  }
