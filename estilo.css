@@ -3,8 +3,27 @@ footer{
     color: white;
     height: 160px;
     bottom: 0;
+    margin-top: 600px;
+    
 }
 body{
     background-image: url("imagens/fundo.png");
+    background-repeat: repeat;
 }
 
+p{
+    font-size: 17px;
+    
+}
+
+.iarte{
+    float: left;
+    margin-right: 45px;
+    font-size: 30px;
+    font-family: calistoga;
+}
+
+.cursos{
+    font-size: 30px;
+    font-family: calistoga;
+}
