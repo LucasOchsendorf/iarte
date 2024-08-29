@@ -1,10 +1,68 @@
-footer{
-    background: black;
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(0deg, rgba(255, 0, 255, 1) 0%, rgba(224, 33, 138, 1) 4%, rgba(0, 0, 0, 1) 100%);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
     color: white;
-    height: 160px;
-    bottom: 0;
-}
-body{
-    background-image: url("imagens/fundo.png");
+    font-size: 13px;
+    margin: 0; 
 }
 
+header {
+    background-color: #000;
+    padding: 15px;
+    border-bottom: 1px solid #fff;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    display: inline;
+    margin-right: 30px;
+}
+
+header li img {
+    width: 50px;
+}
+
+header form {
+    display: inline;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #000;
+    padding: 20px;
+    border-top: 1px solid #fff;
+    margin-top: 20px;
+}
+
+footer h1, footer p {
+    margin: 0; 
+}
+
+.button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 14px;
+    padding: 5px 10px;
+    color: #ffffff;
+    background-color: #660000;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    transition: background-color 0.4s; 
+}
+
+.button:hover {
+    background-color: #414141;
+}

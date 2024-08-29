@@ -6,45 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>IArte</title>
     <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
-    <div class="container-fluid">
-        <header class="">
-            <div>
-                <p>IArte</p>
-            </div>
-            <nav>
-                <div>
-                    <p>Cursos ▼</p>
-                </div>
-                <div>
-                    <p>Contato ▼</p>
-                </div>
-            </nav>
+    <div class="container">
+        <header>
+            <ul style="list-style: none; padding: 0;">
+                <li style="display: inline; margin-right: 30px;">IArte</li>
+                <li style="display: inline; margin-right: 30px;">Cursos ▼</li>
+                <li style="display: inline; margin-right: 70px;">Contato ▼</li>
+                <li style="display: inline;">
+                <img src="C:\Users\lucas.jtsgochsendorf\Desktop\projeto_iarte\images">
+                    <form style="display: inline;">
+                        <input type="text" id="" name="" placeholder="Pesquisar">
+                       <a href="#">  <i class="fa-solid fa-magnifying-glass"></i> </a>
+                    </form>
+                    <i class="fa-regular fa-user"></i>
+                </li>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </ul>
         </header>
-
-      
-
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                    <img src="https://media.istockphoto.com/id/1456423613/photo/young-beautiful-hispanic-woman-working-inside-modern-office-businesswoman-smiling-and-looking.jpg?s=612x612&w=0&k=20&c=hk_eoLE_-e3DvCwg1Y48lhHFb2IvcoxzATZUGp7yEq0=" width="250">
+                    <h3>Design de Animação</h3>
+                    <p>Aprenda a animar seus próprios projetos com o nosso curso de Design de animação!</p>
+                    <h4>R$ 300,00</h4>
+                    <a href="#" class="button">Comprar</a>
+                </div>
+                <div class="col-xs-12 col-sm-6">
+                <img src="https://uofuhealth.utah.edu/sites/g/files/zrelqx386/files/styles/landscape_wide/public/media/images/2023/UUHC_210706_5075_web.jpg?h=ff24e556&itok=L4vvEeJK" width="250">
+                <h3>Fundamentos do 3D</h3>
+                <p>Venha aprender os Fundamentos do 3D com IArte na promo de Black Friday!</p>
+                <h4>R$ 300,00</h4>
+                <a href="#" class="button">Comprar</a>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6">
+                <img src="https://continue.utah.edu/images/6392_general_LLART388RoboticsForGrownUpsWeb.jpg" width="250">
+                <h3>Robótica</h3>
+                <p>O primeiro curso de Robótica da IArte!</p>
+                <h4>R$ 1.000,00</h4>
+                <a href="#" class="button">Comprar</a>
+            </div>
+                <div class="col-xs-12 col-sm-6">
+                <img src="https://ce.byu.edu/sites/ce.byu.edu/files/program_images/10118953.jpg" width="250">
+                <h3>Design Gráfico</h3>
+                <p>Curso com certificado em Técnico em Design Gráfico</p>
+                <h4>R$ 1.000,00</h4>
+                <a href="#" class="button">Comprar</a>
+            </div>
+            </div>
+          
+        </div>
         <footer class="mt-4">
             <div class="row">
                 <div class="col-xs-12 col-sm-2">
-                    <h1>Institucional</h1>
+                    <h2>Institucional</h2>
                     <p>Sobre nós</p>
                     <p>Carreiras IArte</p>
                     <p>Para Empresas</p>
                     <p>Para Sua Escola</p>
                 </div>
                 <div class="col-xs-12 col-sm-2">
-                    <h1>IArte</h1>
+                    <h2>IArte</h2>
                     <p>Formações</p>
                     <p>Como Funciona</p>
                     <p>Todos os cursos</p>
                 </div>
                 <div class="col-xs-12 col-sm-2">
-                    <h1>Conteúdos</h1>
+                    <h2>Conteúdos</h2>
                     <p>IArte Cases</p>
                     <p>Imersões</p>
                     <p>Corporativa</p>
@@ -55,7 +91,13 @@
                     <p>Perguntas frequentes</p>
                 </div>
                 <div class="col-xs-12 col-sm-4">
-                    <p>Novidades e Lançamentos</p>
+                    <h1>Novidades e Lançamentos</h1>
+                    <form>
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="E-MAIL*" aria-label="E-MAIL*" aria-describedby="button-addon2" required>
+                            <button class="botao-rodape btn btn-outline-secondary" type="button" id="button-addon2">ENVIAR</button>
+                          </div>
+                    </form>
                 </div>
             </div>
         </footer>
