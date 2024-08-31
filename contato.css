@@ -19,35 +19,25 @@ header a{
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
-    margin-left: 66px;
+    margin-left: 80px;
     font-family: calistoga;
     font-size: 20px;
 }
 
-
-.logo{
-    font-size: 24px;
-    margin-right: 200px;
+.container{
+    padding: 60px;
+    margin-left: 40px;
 }
-
-.social-icons{
-    display: inline;
-    align-items: center;
-    margin-right: 20px;
-}
-
-.social-icons a{
-    color: #fff;
-    margin-left: 15px;
-    font-size: 30px;
-}
-
 
 .titulo{
     margin-top: 70px;
     font-size: 70px;
     font-family: calistoga;
     margin-bottom: 85px;
+}
+
+i{
+    font-size: 20px;
 }
 
 h2{
@@ -73,7 +63,7 @@ h2{
 footer{
     background-color: #300419;
     padding: 12px;
-    font-size: 20px;
+    font-size: 13px;
     text-align: center;
     
     font-family: montserrat;
@@ -83,5 +73,10 @@ footer{
 }
 
 footer h1{
-    font-size: 35px;
+    font-size: 22px;
+}
+
+.caixa{
+    width: 240px;
+    margin-left: 185px;
 }
