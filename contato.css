@@ -1,6 +1,6 @@
 body{
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #fff;
     background: linear-gradient(to bottom,#000, #b60f5f);
     margin-top: 20px;
@@ -20,8 +20,13 @@ header a{
     margin: 0 10px;
     font-weight: bold;
     margin-left: 80px;
-    font-family: calistoga;
+    font-family: "calistoga", serif;
     font-size: 20px;
+}
+
+header img{
+    width: 60px;
+    margin-left: 570px;
 }
 
 .container{
@@ -32,7 +37,7 @@ header a{
 .titulo{
     margin-top: 70px;
     font-size: 70px;
-    font-family: calistoga;
+    font-family: "calistoga", serif;
     margin-bottom: 85px;
 }
 
@@ -43,7 +48,7 @@ i{
 h2{
     font-size: 30px;
     margin-bottom: 15px;
-    font-family: calistoga;
+    font-family: "calistoga", serif;
 }
 .col-sm-4{
     margin-bottom: 60px;
@@ -65,8 +70,7 @@ footer{
     padding: 12px;
     font-size: 13px;
     text-align: center;
-    
-    font-family: montserrat;
+    font-family: "Montserrat", sans-serif;
     bottom: 0;
     position: absolute;
     width: 100%;
@@ -74,9 +78,11 @@ footer{
 
 footer h1{
     font-size: 22px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
 
 .caixa{
-    width: 240px;
-    margin-left: 185px;
+    width: 307px;
+    margin-left: 157px;
 }
