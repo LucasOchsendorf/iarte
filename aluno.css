@@ -127,7 +127,35 @@ footer p {
   }
 
 
+progress{
+    color: #e6007e;
+}
 
+.area{
+    width: 200px;
+    background: #ccc;
+    height: 20px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 21px;
+}
 
+.preenchimento{
+    background-color: #e31476;
+    height: 20px;
+    border-radius: 20px;
+}
 
+.cem{
+    width: 200px;
+}
+
+.setenta{
+    width: 150px;
+}
+
+.limpar{
+    clear: both;
+}
 
