@@ -1,0 +1,133 @@
+/* aluno.css */
+
+body {
+    background: linear-gradient(to bottom, #000000 ,#ff007f); /* Gradiente */
+    color: white; /* Cor do texto em branco para contraste */
+    font-family: "Calistoga", serif;
+}
+
+header {
+    padding: 20px;
+}
+
+header li {
+    display: inline;
+    margin-right: 30px;
+    color: white; /* Cor do texto do cabeçalho */
+}
+
+.bordas {
+    border: 2px ;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semi-transparente para o rodapé */
+    padding: 45px;
+    color: white; /* Cor do texto no rodapé */
+}
+
+footer h2, footer h1 {
+    color: #f1f1f1 ;/* Cor rosa para os títulos do rodapé */
+}
+
+footer p {
+    margin: -5px 0; /* Margem para os parágrafos */
+    
+}
+
+.input-group .form-control {
+    background: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente para o campo de entrada */
+    color: #f1f1f1; /* Cor do texto no campo de entrada */
+    border: none; /* Remove a borda padrão */
+}
+.placeholder {
+    color: #dedcdd;
+    opacity: 1; /* Firefox */
+  }
+ 
+  ::-ms-input-placeholder { /* Edge 12 -18 */
+    color: #000000;
+  }
+
+.botao-rodape {
+    background: rgba(255, 255, 255, 0.1); /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+}
+
+.botao-rodape:hover {
+    background-color: #e6007e; /* Cor do botão ao passar o mouse */
+}
+.bordas{
+    background: rgba(255, 255, 255, 0.1);
+        
+}
+
+.centro {
+    opacity: 0.8;
+    box-shadow: 0 4px 30px #000;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding: 20px;
+    text-align: left;
+    color: #fff;
+    z-index: -999;
+    background-color: #572a3f;
+    width: 800px;
+    margin-bottom: -60px;
+    z-index: 999;
+    
+    
+}
+
+.centro-aluno {
+    opacity: 0.8;
+    box-shadow: 0 4px 30px #000;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    z-index: -999;
+    background-color: #51474b;
+    width: 1250px;
+}
+
+.centro i{
+    float: right;
+}
+
+
+.centro img{
+    height: 200px;
+    border-radius: 25px;
+    float: left;
+    margin-right: 25px;
+}
+
+.design{
+    margin-top: 50px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 25px;
+    padding: 50px 0px 10px 25px;
+    z-index: -999;
+    position: relative;
+    
+}
+
+.calistoga-regular {
+    font-family: "Calistoga", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+
+
+
+
